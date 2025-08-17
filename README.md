@@ -1,2 +1,41 @@
-# Amazon-E-Commerce-Automation-Testing
-Automation Testing Framework for Amazon’s frontend using Selenium WebDriver, TestNG, Maven, and Page Object Model. Covers login, search, cart, and checkout flows with data-driven and parallel testing.
+📌 Amazon Frontend Automation Testing
+
+This project is an Automation Testing Framework for validating the functionality of Amazon’s web application (frontend). The framework is built using industry-standard tools and best practices to ensure scalability, maintainability, and reusability of test cases.
+
+🔹 Features
+
+Automated test cases for key Amazon functionalities:
+
+🔑 Login & Authentication
+
+🔍 Product Search & Filters
+
+🛒 Add to Cart
+
+💳 Checkout Process
+
+👤 User Account & Orders
+
+Page Object Model (POM) design pattern for clean and maintainable code.
+
+Cross-browser testing with Selenium WebDriver.
+
+Parallel test execution using TestNG.
+
+Cucumber BDD for behavior-driven test scenarios.
+
+Reporting with Extent Reports / Allure Reports.
+
+Maven for build management and dependency handling.
+
+🔹 Tech Stack
+
+Programming Language: Java 
+
+Automation Tool: Selenium WebDriver
+
+Testing Framework: TestNG / JUnit / Cucumber
+
+Build Tool: Maven
+
+Reporting: Extent Reports / Allure Reports
