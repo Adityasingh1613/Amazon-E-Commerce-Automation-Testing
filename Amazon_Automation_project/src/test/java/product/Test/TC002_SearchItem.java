@@ -26,7 +26,7 @@ public class TC002_SearchItem extends Base {
             sp.setCatagoery("Electronics");
             logger.info("Set Category to Electronics");
 
-            sp.setSearchbox("Iphone 16 Pro Max");
+            sp.setSearchbox("Iphone 16 Pro Max 128 gb");
             logger.info("Searched product Iphone in the search Box");
 
             sp.setSearchbtn();

@@ -20,7 +20,7 @@ public class searchpage extends basepage{
     @FindBy(xpath = "//select[@id='searchDropdownBox']")
     WebElement catagoery;
 
-    @FindBy(xpath = "//span[contains(text(),'iPhone 16 Pro 128 GB: 5G Mobile Phone with Camera ')]")
+    @FindBy(xpath = "//h2[@aria-label='iPhone 16 Pro Max 256 GB: 5G Mobile Phone with Camera Control, 4K 120 fps Dolby Vision and a Huge Leap in Battery Life. Works with AirPods; Natural Titanium']")
     WebElement product;
 
 
