@@ -19,8 +19,10 @@ public class Base {
         String baseUrl = ConfigReader.getConfig("baseUrl");
 
         if (browser.equalsIgnoreCase("chrome")) {
+            System.setProperty("webdriver.chrome.driver","C:\\Users\\ADITYA SINGH\\OneDrive\\Desktop\\Testing\\automation\\chrome driver\\chromedriver-win64\\chromedriver.exe");
             driver = new ChromeDriver();
         } else if (browser.equalsIgnoreCase("edge")) {
+            System.setProperty("webdriver.edge.driver","C:\\Users\\ADITYA SINGH\\OneDrive\\Desktop\\Testing\\automation\\edge driver\\msedgedriver.exe");
             driver = new EdgeDriver();
         } else if (browser.equalsIgnoreCase("firefox")) {
             driver = new FirefoxDriver();
@@ -32,7 +34,7 @@ public class Base {
         driver.manage().deleteAllCookies();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 
-        driver.get(baseUrl); // ✅ Navigate here
+        driver.get(baseUrl);
     }
 
     @AfterClass
