@@ -11,14 +11,17 @@ public class searchpage extends basepage{
         super(driver);
     }
 
-    @FindBy(xpath = "")
+    @FindBy(xpath = "//input[@id='twotabsearchtextbox']")
     WebElement searchbox;
 
-    @FindBy(xpath = "")
+    @FindBy(xpath = "//input[@id='nav-search-submit-button']")
     WebElement searchbtn;
 
-    @FindBy(xpath = "")
+    @FindBy(xpath = "//select[@id='searchDropdownBox']")
     WebElement catagoery;
+
+    @FindBy(xpath = "//span[contains(text(),'iPhone 16 Pro 128 GB: 5G Mobile Phone with Camera ')]")
+    WebElement product;
 
 
     public void setSearchbox(String product) {
@@ -32,6 +35,14 @@ public class searchpage extends basepage{
     public void setCatagoery(String catog){
         Select s = new Select(catagoery);
         s.selectByVisibleText(catog);
+    }
+
+    public void getProduct(){
+        product.click();
+    }
+
+    public WebElement setProduct(){
+        return product;
     }
 
 }
