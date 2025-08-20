@@ -1,0 +1,2 @@
+# Ignore credentials
+src/test/resources/credentials.properties
