@@ -21,7 +21,6 @@ public class ConfigReader {
                 configProps.load(configStream);
             }
 
-            // Load credentials.properties based on path defined in config.properties
             String credentialsFile = configProps.getProperty("credentialsFile");
             credentialsProps = new Properties();
             try (InputStream credStream = ConfigReader.class.getClassLoader()
