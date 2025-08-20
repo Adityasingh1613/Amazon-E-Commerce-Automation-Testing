@@ -12,13 +12,13 @@ import product.utils.screenshotUtil;
 
 import java.io.IOException;
 
-public class TC002_SearchItem extends Base {
+public class TC002_SearchIphone extends Base {
 
-    private static final Logger logger = LogManager.getLogger(TC002_SearchItem.class);
+    private static final Logger logger = LogManager.getLogger(TC002_SearchIphone.class);
 
     @Test
     public void SearchTest() throws InterruptedException{
-        logger.info(" ** Starting Test TC002_SearchItem ** ");
+        logger.info(" ** Starting Test TC002_SearchIphone ** ");
 
         try {
             searchpage sp = new searchpage(driver);
@@ -32,10 +32,10 @@ public class TC002_SearchItem extends Base {
             sp.setSearchbtn();
 
             Actions act = new Actions(driver);
-            act.moveToElement(sp.setProduct()).perform();
+            act.moveToElement(sp.setIphone()).perform();
             logger.info("Scrolled to the Product using Action class");
 
-            sp.getProduct();
+            sp.getIphone();
             logger.info("Clicked on the product");
 
             sp.setAddtocart();
@@ -54,6 +54,6 @@ public class TC002_SearchItem extends Base {
             }
             Assert.fail("Test failed due to exception: " + e.getMessage());
         }
-        logger.info("** Finished TC002_SearchItem **");
+        logger.info("** Finished TC002_SearchIphone **");
     }
 }

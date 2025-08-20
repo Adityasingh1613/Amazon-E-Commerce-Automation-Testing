@@ -1,4 +1,8 @@
 package product.Test;
 
-public class TC003_ElectricToothbrush {
+import product.Testbase.Base;
+
+public class TC003_ElectricToothbrush extends Base {
+
+
 }

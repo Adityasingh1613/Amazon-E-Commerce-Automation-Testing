@@ -21,7 +21,13 @@ public class searchpage extends basepage{
     WebElement catagoery;
 
     @FindBy(xpath = "//h2[@aria-label='iPhone 16 Pro Max 256 GB: 5G Mobile Phone with Camera Control, 4K 120 fps Dolby Vision and a Huge Leap in Battery Life. Works with AirPods; Natural Titanium']")
-    WebElement product;
+    WebElement Iphone;
+
+    @FindBy(xpath = "//div[@class='a-section a-spacing-none a-padding-none']//input[@id='add-to-cart-button']")
+    WebElement addtocart;
+
+    @FindBy(xpath = "//a[@id='nav-logo-sprites']")
+    WebElement Amazon;
 
 
     public void setSearchbox(String product) {
@@ -37,12 +43,20 @@ public class searchpage extends basepage{
         s.selectByVisibleText(catog);
     }
 
-    public void getProduct(){
-        product.click();
+    public void getIphone(){
+        Iphone.click();
     }
 
-    public WebElement setProduct(){
-        return product;
+    public WebElement setIphone(){
+        return Iphone;
+    }
+
+    public void setAddtocart(){
+        addtocart.click();
+    }
+
+    public void AmazonPage(){
+        Amazon.click();
     }
 
 }
