@@ -17,7 +17,7 @@ public class TC002_SearchItem extends Base {
     private static final Logger logger = LogManager.getLogger(TC002_SearchItem.class);
 
     @Test
-    public void SearchTest() {
+    public void SearchTest() throws InterruptedException{
         logger.info(" ** Starting Test TC002_SearchItem ** ");
 
         try {
@@ -37,6 +37,12 @@ public class TC002_SearchItem extends Base {
 
             sp.getProduct();
             logger.info("Clicked on the product");
+
+            sp.setAddtocart();
+            logger.info("Product added to the Cart");
+
+            Thread.sleep(5000);
+
         } catch (Exception e) {
             logger.error("Test Failed due to exception: ", e);
 

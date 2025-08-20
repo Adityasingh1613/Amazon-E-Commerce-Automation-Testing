@@ -1,0 +1,89 @@
+2025-08-20 14:43:55 INFO  product.Test.TC001_LoginTest.logingTest(TC001_LoginTest.java:17)ogs -  ** Starting Test TC001_LoginTest ** 
+2025-08-20 14:43:57 INFO  product.Test.TC001_LoginTest.logingTest(TC001_LoginTest.java:27)ogs - User Email Id Entered
+2025-08-20 14:43:58 INFO  product.Test.TC001_LoginTest.logingTest(TC001_LoginTest.java:32)ogs - User Password Entered
+2025-08-20 14:43:58 INFO  product.Test.TC001_LoginTest.logingTest(TC001_LoginTest.java:51)ogs - ** Finished TC001_LoginTest **
+2025-08-20 14:44:01 INFO  product.Test.TC002_SearchIphone.SearchTest(TC002_SearchItem.java:21)ogs -  ** Starting Test TC002_SearchItem **
+2025-08-20 14:44:01 INFO  product.Test.TC002_SearchIphone.SearchTest(TC002_SearchItem.java:27)ogs - Set Category to Electronics
+2025-08-20 14:44:01 INFO  product.Test.TC002_SearchIphone.SearchTest(TC002_SearchItem.java:30)ogs - Searched product Iphone in the search Box
+2025-08-20 14:44:04 INFO  product.Test.TC002_SearchIphone.SearchTest(TC002_SearchItem.java:36)ogs - Scrolled to the Product using Action class
+2025-08-20 14:44:08 INFO  product.Test.TC002_SearchIphone.SearchTest(TC002_SearchItem.java:39)ogs - Clicked on the product
+2025-08-20 14:44:08 ERROR product.Test.TC002_SearchIphone.SearchTest(TC002_SearchItem.java:47)ogs - Test Failed due to exception:
+org.openqa.selenium.InvalidSelectorException: invalid selector: An invalid or illegal selector was specified
+  (Session info: chrome=139.0.7258.128)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.34.0', revision: '707dcb4246*'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.7'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [e8ad083628c575060b85373067e7b55a, findElement {using=id, value=}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 139.0.7258.128, chrome: {chromedriverVersion: 138.0.7204.92 (f079b9bc781e..., userDataDir: C:\Users\ADITYA~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61490}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61490/devtoo..., se:cdpVersion: 139.0.7258.128, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e8ad083628c575060b85373067e7b55a
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502) ~[?:?]
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486) ~[?:?]
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167) ~[selenium-remote-driver-4.34.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138) ~[selenium-remote-driver-4.34.0.jar:?]
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50) ~[selenium-remote-driver-4.34.0.jar:?]
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215) ~[selenium-remote-driver-4.34.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216) ~[selenium-remote-driver-4.34.0.jar:?]
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174) ~[selenium-remote-driver-4.34.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:544) ~[selenium-remote-driver-4.34.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165) ~[selenium-remote-driver-4.34.0.jar:?]
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:66) ~[selenium-remote-driver-4.34.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:367) ~[selenium-remote-driver-4.34.0.jar:?]
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:361) ~[selenium-remote-driver-4.34.0.jar:?]
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68) ~[selenium-support-4.34.0.jar:?]
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38) ~[selenium-support-4.34.0.jar:?]
+	at jdk.proxy2/jdk.proxy2.$Proxy28.click(Unknown Source) ~[?:?]
+	at product.POM.searchpage.setAddtocart(searchpage.java:52) ~[test-classes/:?]
+	at product.Test.TC002_SearchIphone.SearchTest(TC002_SearchItem.java:41) ~[test-classes/:?]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154) ~[testng-7.11.0.jar:7.11.0]
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134) ~[testng-7.11.0.jar:7.11.0]
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596) [?:?]
+	at org.testng.TestRunner.privateRun(TestRunner.java:741) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestRunner.run(TestRunner.java:616) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunner.run(SuiteRunner.java:312) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52) [testng-7.11.0.jar:7.11.0]
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1208) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.runSuites(TestNG.java:1112) [testng-7.11.0.jar:7.11.0]
+	at org.testng.TestNG.run(TestNG.java:1079) [testng-7.11.0.jar:7.11.0]
+	at com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:65) [testng-rt.jar:?]
+	at com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:105) [testng-rt.jar:?]
+2025-08-20 14:44:08 INFO  product.Test.TC002_SearchIphone.SearchTest(TC002_SearchItem.java:51)ogs - Screenshot captured for failure
+2025-08-20 14:45:59 INFO  product.Test.TC001_LoginTest.logingTest(TC001_LoginTest.java:17)ogs -  ** Starting Test TC001_LoginTest ** 
+2025-08-20 14:46:01 INFO  product.Test.TC001_LoginTest.logingTest(TC001_LoginTest.java:27)ogs - User Email Id Entered
+2025-08-20 14:46:02 INFO  product.Test.TC001_LoginTest.logingTest(TC001_LoginTest.java:32)ogs - User Password Entered
+2025-08-20 14:46:02 INFO  product.Test.TC001_LoginTest.logingTest(TC001_LoginTest.java:51)ogs - ** Finished TC001_LoginTest **
+2025-08-20 14:46:05 INFO  product.Test.TC002_SearchIphone.SearchTest(TC002_SearchItem.java:21)ogs -  ** Starting Test TC002_SearchItem **
+2025-08-20 14:46:06 INFO  product.Test.TC002_SearchIphone.SearchTest(TC002_SearchItem.java:27)ogs - Set Category to Electronics
+2025-08-20 14:46:06 INFO  product.Test.TC002_SearchIphone.SearchTest(TC002_SearchItem.java:30)ogs - Searched product Iphone in the search Box
+2025-08-20 14:46:08 INFO  product.Test.TC002_SearchIphone.SearchTest(TC002_SearchItem.java:36)ogs - Scrolled to the Product using Action class
+2025-08-20 14:46:12 INFO  product.Test.TC002_SearchIphone.SearchTest(TC002_SearchItem.java:39)ogs - Clicked on the product
+2025-08-20 14:46:14 INFO  product.Test.TC002_SearchIphone.SearchTest(TC002_SearchItem.java:42)ogs - Product added to the Cart
+2025-08-20 14:46:19 INFO  product.Test.TC002_SearchIphone.SearchTest(TC002_SearchItem.java:57)ogs - ** Finished TC002_SearchItem **
+2025-08-20 14:48:21 INFO  product.Test.TC002_SearchIphone.SearchTest(TC002_SearchIphone.java:21)ogs -  ** Starting Test TC002_SearchIphone ** 
+2025-08-20 14:48:21 INFO  product.Test.TC002_SearchIphone.SearchTest(TC002_SearchIphone.java:27)ogs - Set Category to Electronics
+2025-08-20 14:48:21 INFO  product.Test.TC002_SearchIphone.SearchTest(TC002_SearchIphone.java:30)ogs - Searched product Iphone in the search Box
+2025-08-20 14:48:23 INFO  product.Test.TC002_SearchIphone.SearchTest(TC002_SearchIphone.java:36)ogs - Scrolled to the Product using Action class
+2025-08-20 14:48:27 INFO  product.Test.TC002_SearchIphone.SearchTest(TC002_SearchIphone.java:39)ogs - Clicked on the product
+2025-08-20 14:48:29 INFO  product.Test.TC002_SearchIphone.SearchTest(TC002_SearchIphone.java:42)ogs - Product added to the Cart
+2025-08-20 14:48:34 INFO  product.Test.TC002_SearchIphone.SearchTest(TC002_SearchIphone.java:57)ogs - ** Finished TC002_SearchIphone **
+2025-08-20 14:49:18 INFO  product.Test.TC002_SearchIphone.SearchTest(TC002_SearchIphone.java:21)ogs -  ** Starting Test TC002_SearchIphone ** 
+2025-08-20 14:49:18 INFO  product.Test.TC002_SearchIphone.SearchTest(TC002_SearchIphone.java:27)ogs - Set Category to Electronics
+2025-08-20 14:49:18 INFO  product.Test.TC002_SearchIphone.SearchTest(TC002_SearchIphone.java:30)ogs - Searched product Iphone in the search Box
+2025-08-20 14:49:20 INFO  product.Test.TC002_SearchIphone.SearchTest(TC002_SearchIphone.java:36)ogs - Scrolled to the Product using Action class
+2025-08-20 14:49:24 INFO  product.Test.TC002_SearchIphone.SearchTest(TC002_SearchIphone.java:39)ogs - Clicked on the product
+2025-08-20 14:49:25 INFO  product.Test.TC002_SearchIphone.SearchTest(TC002_SearchIphone.java:42)ogs - Product added to the Cart
+2025-08-20 14:49:30 INFO  product.Test.TC002_SearchIphone.SearchTest(TC002_SearchIphone.java:57)ogs - ** Finished TC002_SearchIphone **
