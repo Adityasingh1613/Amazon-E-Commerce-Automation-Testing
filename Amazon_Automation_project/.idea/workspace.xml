@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="257e5e1d-043b-4ea2-9616-9e6189b7365a" name="Changes" comment="Hide the credentials.properties function">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/product/POM/searchpage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/product/POM/searchpage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/product/Test/TC002_SearchIphone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/product/Test/TC002_SearchIphone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/product/Test/TC003_ElectricToothbrush.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/product/Test/TC003_ElectricToothbrush.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {}
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Adityasingh1613/Amazon-E-Commerce-Automation-Testing&quot;,
+    &quot;accountId&quot;: &quot;65c594af-884c-4bc8-b228-49f5f414b2b3&quot;
+  }
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
+  <component name="ProjectId" id="31CsrcUKIyChWgnXc4XmVumHrjt" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Maven.Amazon_Automation_project [org.apache.maven.plugins:maven-clean-plugin:3.2.0:clean].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "TestNG.C:/Users/ADITYA SINGH/OneDrive/Desktop/Amazon project/Amazon_Automation_project/testng.xml.executor": "Run",
+    "TestNG.TC001_LoginTest (1).executor": "Run",
+    "TestNG.TC001_LoginTest.executor": "Run",
+    "TestNG.TC001_LoginTest.logingTest.executor": "Run",
+    "TestNG.TC001_login.executor": "Run",
+    "TestNG.TC002_SearchIphone.SearchTest.executor": "Run",
+    "TestNG.TC002_SearchIteam.SearchTest.executor": "Run",
+    "TestNG.TC002_SearchIteam.executor": "Run",
+    "git-widget-placeholder": "main",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ADITYA SINGH\OneDrive\Desktop\Amazon project\Amazon_Automation_project\src\test" />
+      <recent name="C:\Users\ADITYA SINGH\OneDrive\Desktop\Amazon project\Amazon_Automation_project\src\main" />
+      <recent name="C:\Users\ADITYA SINGH\OneDrive\Desktop\Amazon project\Amazon_Automation_project\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.TC002_SearchIphone.SearchTest">
+    <configuration name="C:/Users/ADITYA SINGH/OneDrive/Desktop/Amazon project/Amazon_Automation_project/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Amazon_Automation_project" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TC001_LoginTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Amazon_Automation_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="product.Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="product.Test" />
+      <option name="MAIN_CLASS_NAME" value="product.Test.TC001_LoginTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TC001_LoginTest.logingTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Amazon_Automation_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="product.Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="product.Test" />
+      <option name="MAIN_CLASS_NAME" value="product.Test.TC001_LoginTest" />
+      <option name="METHOD_NAME" value="logingTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TC002_SearchIphone" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Amazon_Automation_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="product.Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="product.Test" />
+      <option name="MAIN_CLASS_NAME" value="product.Test.TC002_SearchIphone" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TC002_SearchIphone.SearchTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Amazon_Automation_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="product.Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="product.Test" />
+      <option name="MAIN_CLASS_NAME" value="product.Test.TC002_SearchIphone" />
+      <option name="METHOD_NAME" value="SearchTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="TestNG.TC002_SearchIphone.SearchTest" />
+        <item itemvalue="TestNG.C:/Users/ADITYA SINGH/OneDrive/Desktop/Amazon project/Amazon_Automation_project/testng.xml" />
+        <item itemvalue="TestNG.TC002_SearchIphone" />
+        <item itemvalue="TestNG.TC001_LoginTest" />
+        <item itemvalue="TestNG.TC001_LoginTest.logingTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="257e5e1d-043b-4ea2-9616-9e6189b7365a" name="Changes" comment="" />
+      <created>1755039589326</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1755039589326</updated>
+    </task>
+    <task id="LOCAL-00001" summary="util add">
+      <option name="closed" value="true" />
+      <created>1755498857836</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1755498857836</updated>
+    </task>
+    <task id="LOCAL-00002" summary="screenshot util added">
+      <option name="closed" value="true" />
+      <created>1755499143176</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1755499143176</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Test case oo1 add">
+      <option name="closed" value="true" />
+      <created>1755510734982</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1755510734982</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Test case TC002 added">
+      <option name="closed" value="true" />
+      <created>1755671960690</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1755671960690</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Add Little More Functionality in the project">
+      <option name="closed" value="true" />
+      <created>1755678069506</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1755678069506</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Add Little More Functionality in the project">
+      <option name="closed" value="true" />
+      <created>1755680419169</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1755680419169</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Hide the credentials.properties function">
+      <option name="closed" value="true" />
+      <created>1755681067889</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1755681067889</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="main" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="util add" />
+    <MESSAGE value="screenshot util added" />
+    <MESSAGE value="Test case oo1 add" />
+    <MESSAGE value="Test case TC002 added" />
+    <MESSAGE value="Add Little More Functionality in the project" />
+    <MESSAGE value="Hide the credentials.properties function" />
+    <option name="LAST_COMMIT_MESSAGE" value="Hide the credentials.properties function" />
+  </component>
+</project>
