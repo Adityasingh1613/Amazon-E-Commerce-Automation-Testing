@@ -34,7 +34,7 @@ Programming Language: Java
 
 Automation Tool: Selenium WebDriver
 
-Testing Framework: TestNG / JUnit / Cucumber
+Testing Framework: TestNG / Cucumber
 
 Build Tool: Maven
 
