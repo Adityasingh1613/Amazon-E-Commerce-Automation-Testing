@@ -14,6 +14,11 @@
                     <include name="SearchTest"/>
                 </methods>
             </class>
+            <class name="product.Test.TC003_ElectricToothbrush">
+                <methods>
+                    <include name="burshsearch"/>
+                </methods>
+            </class>
         </classes>
     </test>
 </suite>

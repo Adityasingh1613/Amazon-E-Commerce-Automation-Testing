@@ -4,11 +4,34 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="257e5e1d-043b-4ea2-9616-9e6189b7365a" name="Changes" comment="Hide the credentials.properties function">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+    <list default="true" id="257e5e1d-043b-4ea2-9616-9e6189b7365a" name="Changes" comment="few files added">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/057b4f4b-c750-445f-8e9b-a6ca4f1b0734-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/16602711-ef31-4c32-9fb4-2ad2324e04ca-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/18acebb9-7815-482f-a66b-b8361447d1fc-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/19d0d617-0693-433e-85cc-833051a0fb27-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/1d111848-c4c6-499b-ae9e-41654d87a3ae-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/58ef83ff-0ffa-4b87-922f-28e5372e9247-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/59071823-a950-414b-8b96-9d4435e80491-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/64f1088c-8a32-48ef-8aac-9df9ece69e6d-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/6a69c8ea-bd03-43f9-a992-2f2c5b243983-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/7615e94d-116e-4869-a9f8-d1044752bbcf-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/93e68d16-2eb0-4cc5-9ebe-88cd6308cb9a-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/94015bcd-a5d6-4398-b40c-e946d68b2f74-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/983c1369-ea5d-4df0-a096-e834dc46882e-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/98d7a289-27ef-418a-81c8-0e2a3848057f-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/a54bdd15-f0d8-4ae7-a414-81da60c03221-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/ace7f855-7a45-44e2-9f91-6fd50852d5e1-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/ae5eb549-3880-4463-a77a-a6a1caef868d-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/af30141f-f529-4714-8e2d-57b05923fbcc-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/cdfb758f-eb57-4493-9f7e-46a111350038-result.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/allure-results/d0cbf782-9e6c-4a39-ae58-8f32b47e19d9-container.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/automation.log" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/product/POM/searchpage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/product/POM/searchpage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/product/Test/TC002_SearchIphone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/product/Test/TC002_SearchIphone.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/product/Test/TC003_ElectricToothbrush.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/product/Test/TC003_ElectricToothbrush.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/credentials.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/credentials.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/product/POM/searchpage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/product/POM/searchpage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +88,7 @@
     "TestNG.TC002_SearchIphone.SearchTest.executor": "Run",
     "TestNG.TC002_SearchIteam.SearchTest.executor": "Run",
     "TestNG.TC002_SearchIteam.executor": "Run",
+    "TestNG.TC003_ElectricToothbrush.burshsearch.executor": "Run",
     "git-widget-placeholder": "main",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
@@ -79,7 +103,7 @@
       <recent name="C:\Users\ADITYA SINGH\OneDrive\Desktop\Amazon project\Amazon_Automation_project\src" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.TC002_SearchIphone.SearchTest">
+  <component name="RunManager" selected="TestNG.C:/Users/ADITYA SINGH/OneDrive/Desktop/Amazon project/Amazon_Automation_project/testng.xml">
     <configuration name="C:/Users/ADITYA SINGH/OneDrive/Desktop/Amazon project/Amazon_Automation_project/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Amazon_Automation_project" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
@@ -101,24 +125,6 @@
       <option name="PACKAGE_NAME" value="product.Test" />
       <option name="MAIN_CLASS_NAME" value="product.Test.TC001_LoginTest" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TC001_LoginTest.logingTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Amazon_Automation_project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="product.Test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="product.Test" />
-      <option name="MAIN_CLASS_NAME" value="product.Test.TC001_LoginTest" />
-      <option name="METHOD_NAME" value="logingTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -160,13 +166,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TC003_ElectricToothbrush.burshsearch" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Amazon_Automation_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="product.Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="product.Test" />
+      <option name="MAIN_CLASS_NAME" value="product.Test.TC003_ElectricToothbrush" />
+      <option name="METHOD_NAME" value="burshsearch" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TC002_SearchIphone.SearchTest" />
         <item itemvalue="TestNG.C:/Users/ADITYA SINGH/OneDrive/Desktop/Amazon project/Amazon_Automation_project/testng.xml" />
+        <item itemvalue="TestNG.TC003_ElectricToothbrush.burshsearch" />
+        <item itemvalue="TestNG.TC002_SearchIphone.SearchTest" />
         <item itemvalue="TestNG.TC002_SearchIphone" />
         <item itemvalue="TestNG.TC001_LoginTest" />
-        <item itemvalue="TestNG.TC001_LoginTest.logingTest" />
       </list>
     </recent_temporary>
   </component>
@@ -234,7 +258,23 @@
       <option name="project" value="LOCAL" />
       <updated>1755681067889</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="few files added">
+      <option name="closed" value="true" />
+      <created>1755682362030</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1755682362030</updated>
+    </task>
+    <task id="LOCAL-00009" summary="few files added">
+      <option name="closed" value="true" />
+      <created>1755682419763</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1755682419763</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -282,6 +322,7 @@
     <MESSAGE value="Test case TC002 added" />
     <MESSAGE value="Add Little More Functionality in the project" />
     <MESSAGE value="Hide the credentials.properties function" />
-    <option name="LAST_COMMIT_MESSAGE" value="Hide the credentials.properties function" />
+    <MESSAGE value="few files added" />
+    <option name="LAST_COMMIT_MESSAGE" value="few files added" />
   </component>
 </project>
