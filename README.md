@@ -22,8 +22,6 @@ Cross-browser testing with Selenium WebDriver.
 
 Parallel test execution using TestNG.
 
-Cucumber BDD for behavior-driven test scenarios.
-
 Reporting with Extent Reports / Allure Reports.
 
 Maven for build management and dependency handling.
