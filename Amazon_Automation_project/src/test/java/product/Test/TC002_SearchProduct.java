@@ -1,5 +1,6 @@
 package product.Test;
 
+
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.interactions.Actions;
@@ -11,22 +12,39 @@ import product.utils.screenshotUtil;
 
 import java.io.IOException;
 
-public class TC003_ElectricToothbrush extends Base {
-    private static final Logger logger = LogManager.getLogger(TC003_ElectricToothbrush.class);
+public class TC002_SearchProduct extends Base {
+
+    private static final Logger logger = LogManager.getLogger(TC002_SearchProduct.class);
 
     @Test
-    public void burshsearch() throws InterruptedException{
-        logger.info("** Strating Test TC003_ElectricToothbrush **");
+    public void SearchTest() {
+        logger.info(" ** Starting Test TC002_SearchProduct ** ");
 
-        try{
+        try {
             searchpage sp = new searchpage(driver);
+
+            sp.setCatagoery("Electronics");
+            logger.info("Set Category to Electronics");
+
+            sp.setSearchbox("Iphone 16 Pro Max 128 gb");
+            logger.info("Searched product Iphone in the search Box");
+
+            sp.setSearchbtn();
+
+            Actions act = new Actions(driver);
+            act.moveToElement(sp.setIphone()).perform();
+            logger.info("Scrolled to the Product using Action class");
+
+            sp.getIphone();
+            logger.info("Clicked on the product");
+
+            sp.setAddtocart();
+            logger.info("Product added to the Cart");
 
             sp.setSearchbox("Electric ToothBrush");
             logger.info("Search for electric toothbrush");
 
             sp.setSearchbtn();
-
-            Actions act = new Actions(driver);
             act.moveToElement(sp.setBrush()).perform();
             logger.info("Scrolled to the Product using Action class");
 
@@ -36,21 +54,18 @@ public class TC003_ElectricToothbrush extends Base {
             sp.setAddtocart();
             logger.info("Product added to the Cart");
 
-            Thread.sleep(5000);
 
-
-        }catch (Exception e){
+        } catch (Exception e) {
             logger.error("Test Failed due to exception: ", e);
 
             try {
-                screenshotUtil.takescreenshot(driver, "TC003_ElectricToothbrush_Failure");
+                screenshotUtil.takescreenshot(driver, "TC002_SearchItem_Failure");
                 logger.info("Screenshot captured for failure");
             } catch (IOException io) {
                 logger.error("Screenshot capture failed: ", io);
             }
             Assert.fail("Test failed due to exception: " + e.getMessage());
         }
-
-        logger.info("Finished TC003_ElectricToothbrush ");
+        logger.info("** Finished TC002_SearchProduct **");
     }
 }

@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="257e5e1d-043b-4ea2-9616-9e6189b7365a" name="Changes" comment="test case 3 added">
-      <change afterPath="$PROJECT_DIR$/src/test/java/product/POM/cartpage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/product/POM/searchpage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/product/POM/searchpage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/credentials.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/credentials.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/product/POM/searchpage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/product/POM/searchpage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/product/POM/cartpage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/product/POM/cartpage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/product/Test/TC002_SearchIphone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/product/Test/TC002_SearchProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/product/Test/TC003_ElectricToothbrush.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,28 +52,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Maven.Amazon_Automation_project [org.apache.maven.plugins:maven-clean-plugin:3.2.0:clean].executor&quot;: &quot;Run&quot;,
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;TestNG.C:/Users/ADITYA SINGH/OneDrive/Desktop/Amazon project/Amazon_Automation_project/testng.xml.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.TC001_LoginTest (1).executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.TC001_LoginTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.TC001_LoginTest.logingTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.TC001_login.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.TC002_SearchIphone.SearchTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.TC002_SearchIteam.SearchTest.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.TC002_SearchIteam.executor&quot;: &quot;Run&quot;,
-    &quot;TestNG.TC003_ElectricToothbrush.burshsearch.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Maven.Amazon_Automation_project [org.apache.maven.plugins:maven-clean-plugin:3.2.0:clean].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "TestNG.C:/Users/ADITYA SINGH/OneDrive/Desktop/Amazon project/Amazon_Automation_project/testng.xml.executor": "Run",
+    "TestNG.TC001_LoginTest (1).executor": "Run",
+    "TestNG.TC001_LoginTest.executor": "Run",
+    "TestNG.TC001_LoginTest.logingTest.executor": "Run",
+    "TestNG.TC001_login.executor": "Run",
+    "TestNG.TC002_SearchIphone.SearchTest.executor": "Run",
+    "TestNG.TC002_SearchIphone.executor": "Run",
+    "TestNG.TC002_SearchIteam.SearchTest.executor": "Run",
+    "TestNG.TC002_SearchIteam.executor": "Run",
+    "TestNG.TC003_ElectricToothbrush.burshsearch.executor": "Run",
+    "git-widget-placeholder": "main",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\ADITYA SINGH\OneDrive\Desktop\Amazon project\Amazon_Automation_project\src\test" />
@@ -81,7 +82,7 @@
       <recent name="C:\Users\ADITYA SINGH\OneDrive\Desktop\Amazon project\Amazon_Automation_project\src" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.C:/Users/ADITYA SINGH/OneDrive/Desktop/Amazon project/Amazon_Automation_project/testng.xml">
+  <component name="RunManager">
     <configuration name="C:/Users/ADITYA SINGH/OneDrive/Desktop/Amazon project/Amazon_Automation_project/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Amazon_Automation_project" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
@@ -109,7 +110,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TC002_SearchIphone" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TC002_SearchProduct" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Amazon_Automation_project" />
       <extension name="coverage">
         <pattern>
@@ -118,7 +119,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="product.Test" />
-      <option name="MAIN_CLASS_NAME" value="product.Test.TC002_SearchIphone" />
+      <option name="MAIN_CLASS_NAME" value="product.Test.TC002_SearchProduct" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -126,7 +127,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TC002_SearchIphone.SearchTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="TC002_SearchProduct.SearchTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Amazon_Automation_project" />
       <extension name="coverage">
         <pattern>
@@ -135,7 +136,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="product.Test" />
-      <option name="MAIN_CLASS_NAME" value="product.Test.TC002_SearchIphone" />
+      <option name="MAIN_CLASS_NAME" value="product.Test.TC002_SearchProduct" />
       <option name="METHOD_NAME" value="SearchTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -164,10 +165,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.TC002_SearchProduct" />
         <item itemvalue="TestNG.C:/Users/ADITYA SINGH/OneDrive/Desktop/Amazon project/Amazon_Automation_project/testng.xml" />
         <item itemvalue="TestNG.TC003_ElectricToothbrush.burshsearch" />
-        <item itemvalue="TestNG.TC002_SearchIphone.SearchTest" />
-        <item itemvalue="TestNG.TC002_SearchIphone" />
+        <item itemvalue="TestNG.TC002_SearchProduct.SearchTest" />
         <item itemvalue="TestNG.TC001_LoginTest" />
       </list>
     </recent_temporary>
@@ -268,7 +269,15 @@
       <option name="project" value="LOCAL" />
       <updated>1755698195987</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="test case 3 added">
+      <option name="closed" value="true" />
+      <created>1755769221679</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1755769221679</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

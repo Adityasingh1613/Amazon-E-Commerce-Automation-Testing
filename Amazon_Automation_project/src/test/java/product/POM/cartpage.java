@@ -19,5 +19,12 @@ public class cartpage extends basepage{
 
     @FindBy(xpath = "//span[@class='a-icon a-icon-small-add']")
     WebElement quantitybrush;
-    
+
+    public void setCart(){
+        cart.click();
+    }
+
+    public void setQuantitybrush(){
+        quantitybrush.click();
+    }
 }

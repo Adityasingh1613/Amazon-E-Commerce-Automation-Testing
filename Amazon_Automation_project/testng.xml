@@ -9,7 +9,7 @@
                     <include name="logingTest"/>
                 </methods>
             </class>
-            <class name="product.Test.TC002_SearchIphone">
+            <class name="product.Test.TC002_SearchProduct">
                 <methods>
                     <include name="SearchTest"/>
                 </methods>
