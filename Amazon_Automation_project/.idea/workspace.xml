@@ -4,12 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="257e5e1d-043b-4ea2-9616-9e6189b7365a" name="Changes" comment="test case 3 added">
+    <list default="true" id="257e5e1d-043b-4ea2-9616-9e6189b7365a" name="Changes" comment="simplified the framework">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/product/POM/cartpage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/product/POM/cartpage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/product/Test/TC002_SearchIphone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/product/Test/TC002_SearchProduct.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/product/Test/TC003_ElectricToothbrush.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/screenshot/TC002_SearchItem_Failure.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/product/POM/searchpage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/product/POM/searchpage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/product/Test/TC002_SearchProduct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/product/Test/TC002_SearchProduct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/product/Testbase/Base.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/product/Testbase/Base.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/product/POM/searchpage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/product/POM/searchpage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/product/Test/TC002_SearchIphone.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/product/Testbase/Base.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/product/Testbase/Base.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,6 +71,7 @@
     "TestNG.TC002_SearchIphone.executor": "Run",
     "TestNG.TC002_SearchIteam.SearchTest.executor": "Run",
     "TestNG.TC002_SearchIteam.executor": "Run",
+    "TestNG.TC002_SearchProduct.SearchTest.executor": "Run",
     "TestNG.TC003_ElectricToothbrush.burshsearch.executor": "Run",
     "git-widget-placeholder": "main",
     "project.structure.last.edited": "Modules",
@@ -82,7 +87,7 @@
       <recent name="C:\Users\ADITYA SINGH\OneDrive\Desktop\Amazon project\Amazon_Automation_project\src" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.TC002_SearchProduct.SearchTest">
     <configuration name="C:/Users/ADITYA SINGH/OneDrive/Desktop/Amazon project/Amazon_Automation_project/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Amazon_Automation_project" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
@@ -165,10 +170,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TC002_SearchProduct" />
-        <item itemvalue="TestNG.C:/Users/ADITYA SINGH/OneDrive/Desktop/Amazon project/Amazon_Automation_project/testng.xml" />
-        <item itemvalue="TestNG.TC003_ElectricToothbrush.burshsearch" />
         <item itemvalue="TestNG.TC002_SearchProduct.SearchTest" />
+        <item itemvalue="TestNG.C:/Users/ADITYA SINGH/OneDrive/Desktop/Amazon project/Amazon_Automation_project/testng.xml" />
+        <item itemvalue="TestNG.TC002_SearchProduct" />
+        <item itemvalue="TestNG.TC003_ElectricToothbrush.burshsearch" />
         <item itemvalue="TestNG.TC001_LoginTest" />
       </list>
     </recent_temporary>
@@ -277,7 +282,15 @@
       <option name="project" value="LOCAL" />
       <updated>1755769221679</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="simplified the framework">
+      <option name="closed" value="true" />
+      <created>1755770363099</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1755770363099</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -327,6 +340,7 @@
     <MESSAGE value="Hide the credentials.properties function" />
     <MESSAGE value="few files added" />
     <MESSAGE value="test case 3 added" />
-    <option name="LAST_COMMIT_MESSAGE" value="test case 3 added" />
+    <MESSAGE value="simplified the framework" />
+    <option name="LAST_COMMIT_MESSAGE" value="simplified the framework" />
   </component>
 </project>

@@ -17,7 +17,7 @@ public class TC002_SearchProduct extends Base {
     private static final Logger logger = LogManager.getLogger(TC002_SearchProduct.class);
 
     @Test
-    public void SearchTest() {
+    public void SearchTest() throws InterruptedException{
         logger.info(" ** Starting Test TC002_SearchProduct ** ");
 
         try {
@@ -41,6 +41,10 @@ public class TC002_SearchProduct extends Base {
             sp.setAddtocart();
             logger.info("Product added to the Cart");
 
+
+            sp.setAmazon();
+            logger.info("Clicked Home Page Button");
+
             sp.setSearchbox("Electric ToothBrush");
             logger.info("Search for electric toothbrush");
 
@@ -54,16 +58,19 @@ public class TC002_SearchProduct extends Base {
             sp.setAddtocart();
             logger.info("Product added to the Cart");
 
+            Thread.sleep(1000);
+
 
         } catch (Exception e) {
             logger.error("Test Failed due to exception: ", e);
 
             try {
-                screenshotUtil.takescreenshot(driver, "TC002_SearchItem_Failure");
+                screenshotUtil.takescreenshot(driver, "TC002_SearchProduct_Failure");
                 logger.info("Screenshot captured for failure");
             } catch (IOException io) {
                 logger.error("Screenshot capture failed: ", io);
             }
+            e.printStackTrace();
             Assert.fail("Test failed due to exception: " + e.getMessage());
         }
         logger.info("** Finished TC002_SearchProduct **");
