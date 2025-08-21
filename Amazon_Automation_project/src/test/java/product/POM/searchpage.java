@@ -29,8 +29,6 @@ public class searchpage extends basepage{
     @FindBy(xpath = "//div[@class='a-section a-spacing-none a-padding-none']//input[@id='add-to-cart-button']")
     WebElement addtocart;
 
-    @FindBy(xpath = "//a[@id='nav-logo-sprites']")
-    WebElement Amazon;
 
 
     public void setSearchbox(String product) {
@@ -56,10 +54,6 @@ public class searchpage extends basepage{
 
     public void setAddtocart(){
         addtocart.click();
-    }
-
-    public void AmazonPage(){
-        Amazon.click();
     }
 
     public WebElement setBrush(){
