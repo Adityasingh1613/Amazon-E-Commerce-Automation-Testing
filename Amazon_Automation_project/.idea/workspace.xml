@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="257e5e1d-043b-4ea2-9616-9e6189b7365a" name="Changes" comment="changed the annotation from method to suit to fix the logout issue">
-      <change afterPath="$PROJECT_DIR$/src/test/java/product/Test/TC003_CartTest.java" afterDir="false" />
+    <list default="true" id="257e5e1d-043b-4ea2-9616-9e6189b7365a" name="Changes" comment="added new test case named TC003_CartTest">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/credentials.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/credentials.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/product/Test/TC001_LoginTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/product/Test/TC001_LoginTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/product/Testbase/Base.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/product/Testbase/Base.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,6 +108,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TC001_LoginTest.logingTest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Amazon_Automation_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="product.Test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="product.Test" />
+      <option name="MAIN_CLASS_NAME" value="product.Test.TC001_LoginTest" />
+      <option name="METHOD_NAME" value="logingTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TC002_SearchProduct" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Amazon_Automation_project" />
       <extension name="coverage">
@@ -145,31 +161,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TC003_ElectricToothbrush.burshsearch" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Amazon_Automation_project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="product.Test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="product.Test" />
-      <option name="MAIN_CLASS_NAME" value="product.Test.TC003_ElectricToothbrush" />
-      <option name="METHOD_NAME" value="burshsearch" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.C:/Users/ADITYA SINGH/OneDrive/Desktop/Amazon project/Amazon_Automation_project/testng.xml" />
+        <item itemvalue="TestNG.TC001_LoginTest" />
+        <item itemvalue="TestNG.TC001_LoginTest.logingTest" />
         <item itemvalue="TestNG.TC002_SearchProduct.SearchTest" />
         <item itemvalue="TestNG.TC002_SearchProduct" />
-        <item itemvalue="TestNG.TC003_ElectricToothbrush.burshsearch" />
-        <item itemvalue="TestNG.TC001_LoginTest" />
       </list>
     </recent_temporary>
   </component>
@@ -293,7 +291,15 @@
       <option name="project" value="LOCAL" />
       <updated>1755772484733</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="added new test case named TC003_CartTest">
+      <option name="closed" value="true" />
+      <created>1756120004033</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1756120004033</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -345,6 +351,7 @@
     <MESSAGE value="test case 3 added" />
     <MESSAGE value="simplified the framework" />
     <MESSAGE value="changed the annotation from method to suit to fix the logout issue" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed the annotation from method to suit to fix the logout issue" />
+    <MESSAGE value="added new test case named TC003_CartTest" />
+    <option name="LAST_COMMIT_MESSAGE" value="added new test case named TC003_CartTest" />
   </component>
 </project>

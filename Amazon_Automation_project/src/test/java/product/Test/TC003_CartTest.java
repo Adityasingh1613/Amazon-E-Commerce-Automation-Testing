@@ -17,7 +17,6 @@ public class TC003_CartTest extends Base {
             cartpage cp = new cartpage(driver);
 
 
-
         }
         catch (Exception e) {
             logger.error("Test Failed", e);
